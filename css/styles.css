@@ -1,16 +1,130 @@
 body {
-  background-color: #dbf6e9;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #deedf0;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 5em;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+
+.profile {
+  margin-top: 2%;
+}
+
+.profile-pic {
+  border-radius: 100px;
+}
+
+.skills {
+  margin-bottom: 5%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  float: left;
+  margin-right: 30px;
+}
+
+.android-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: 80;
+   padding: 10px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
 }
 
 hr {
+  width: 4%;
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
   border-color: grey;
-  width: 2%;
+  width: 6%;
   background-color: white;
 }
 
-h3 {
-  color: #28b5b5;
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 5%;
+  height: 130px;
+  padding-top: 3%;
+  color: #11999E;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  padding-top: 1%;
+}
+
+a {
+  text-decoration: none;
+  padding: 3%;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
 }
